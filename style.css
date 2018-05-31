@@ -1,0 +1,217 @@
+html, body {
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    background-position: absolute;
+    background-color:#29272d;
+}
+
+
+
+ul {
+margin: 0;   
+}
+
+header{
+    margin: 5px auto;
+    padding: 0;
+    
+   /* background: #ce2f44; */
+}
+
+ul li {
+    margin: 0 auto;
+    display: inline;
+    padding: 6%;
+    font-family:"Unica One", cursive;
+    font-size: 30pt;
+    list-style: none;
+    text-transform: uppercase;
+    
+}
+
+li:hover{
+
+    background-color: rgba(77, 77, 77, 0.15);
+}
+
+
+a{
+    color:whitesmoke;
+    text-decoration: none;
+   
+}
+
+a:hover {
+    color: #ff3d56;
+    text-decoration-color: #fffffd
+}
+
+a::before {
+   
+}
+
+
+
+.pic1{
+    margin: 0 auto;
+    padding: 0px 0px;
+    display:table;
+background: url("img/blur-shoes-red.jpg");
+width: 100%;
+height: 100%;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.pic1 .redux-title, .share {
+    font-family: 'Unica One', cursive;
+    font-size: 250%;
+    color: #fffffe; 
+    text-align: center;
+    transform: translate(-40px, 120px);
+}
+
+.redux-title:hover {
+    color:#ff3d56;
+    cursor: default;
+
+}
+.artportal{
+    font-family: 'Unica One', cursive;
+    font-size: 250%;
+    color: #ff3d56;
+    text-align: center;
+    font-size: 36pt;
+    transform: translate(-30px, 50px);
+    text-shadow: 0px 5px 10px #252525;
+    cursor: default;
+}
+
+.share {
+    color: #e9b3c8;
+    text-shadow: 5px 5px 50px #000000;
+    border: #000000;
+}
+
+
+
+.pic2{
+    background: url("img/environment-festival-girl.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-height: 400px;
+    }
+
+    
+
+.pic3{
+    background: url("img/apple.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-height: 400px;
+    }
+
+    
+.pic1, .pic2, .pic3 {
+    background-attachment: fixed;
+    opacity: 0.75;
+}
+
+
+section {
+    color: #fffffd;
+   /* font-family: "Delius Unicase", cursive; */
+   font-family: 'Englebert', sans-serif;
+    text-align: center;
+    text-justify: auto;
+    font-size: 16pt;
+    margin: 0% 20%;
+
+}
+
+section h2 {
+    font-family: "Unica One", cursive;
+    font-size: 28pt;
+}
+
+
+
+.foot {
+    padding: 0 0;
+    margin: 0 auto;
+    color: #fffffd;
+    width: 100%;
+     height: 10px;
+    /* font-family: "Delius Unicase", cursive; */
+    font-family: 'Englebert', sans-serif;
+     text-align: center;
+     text-justify: auto;
+     font-size: 15pt;
+     
+}
+span{
+    color: #44c0a5;
+    font-weight: 5px;
+}
+
+#heart{
+    width: 18px;
+    height: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+section {
+    margin: 0 0 0 0;
+    padding: 10px 0px;
+    background : url("/home/tyrantr/Pictures/2458.jpg") no-repeat 50% 50%; 
+background-size: cover;
+width: 100%;
+height: 100%;
+
+}
+.containerMain{
+    background-color: rgba(0,0,0,0.5);
+    text-align: center;
+    color: aliceblue;
+    border-color: #252525;
+    text-shadow: #252525;
+    vertical-align: middle;
+    margin-top: -30px;
+
+
+}
+
+.titleContainer {
+    text-align: center;
+    margin: 0 auto;
+}
+*/
